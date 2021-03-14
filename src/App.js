@@ -14,8 +14,9 @@ const App = () => {
       <span>
         The steps to add Sass to Create React App are:{" "}
         <Tooltip
-          message={`Install node-sass: yarn add node-sass. Convert your . css to . scss. Import your . scss files in your React components like App. js.`}
+          message={`Install node-sass: "yarn add node-sass". Convert your . css to . scss. Import your . scss files in your React components like App. js.`}
           position={"bottom"}
+          formatMessage
         >
           tooltip
         </Tooltip>{" "}
